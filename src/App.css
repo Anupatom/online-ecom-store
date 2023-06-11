@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+/* .slick-slider {
+  width: 100%;
+  overflow: hidden;
+} */
+.slick-list {
+  position: relative;
+  display: block !important;
+  width: 100%;
+}
+.slick-slide div {
+  width: auto;
+  margin-right: 10px;
+}
+.slick-slide img {
+  width: calc(100% - 10px) !important;
+}
+
+
+
+/* For the demo */
+.slick-slide div {
+  margin-right: 16px !important;
+  max-width: 400px !important;
+}
+.slick-prev,
+.slick-next {
+  z-index: 999 !important;
+  width:30px !important;
+  height: 34px !important;
+}
+
+.slick-slide img {
+  width: 90% !important;
+  margin: auto !important;
+}
+/* .slick-prev {
+  left: 25px !important;
+}
+.slick-next {
+  right: 25px !important;
+} */
