@@ -40,7 +40,7 @@ const Products = () => {
             ))}
         </Grid>
       </Box>
-      <Typography variant="h5" align="center" mt={2}>
+      <Typography variant="h5" align="center" mt={4}>
         ALL PRODUCTS CAROUSEL
       </Typography>
       <Box sx={{ flexGrow: 1 }}>

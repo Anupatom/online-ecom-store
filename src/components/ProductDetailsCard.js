@@ -35,7 +35,7 @@ const ProductDetailsCard = (props) => {
       <CardHeader
         title={title}
         subheader={category}
-        titleTypographyProps={{ variant: "subtitle1" }}
+        titleTypographyProps={{ variant: "subtitle1", lineHeight: "1.1rem" }}
         sx={{ height: "75px" }}
       />
       <CardMedia
